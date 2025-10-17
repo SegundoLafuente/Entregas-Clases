@@ -3,8 +3,8 @@ function rectangulo (altura, ancho){
     return area 
 }
 
-let area = rectangulo(2,2);
-console.log(area) 
+let ar = rectangulo(2,2);
+console.log(ar);
 
 function triangulo (base, altura){
     let area = base * altura / 2;
@@ -12,7 +12,7 @@ function triangulo (base, altura){
 }
 
 let area = triangulo(2,2);
-console.log(area)
+console.log(area);
 
 function dolarHoy (pesos){
     let dolares = pesos * 1455;
@@ -20,7 +20,7 @@ function dolarHoy (pesos){
 }
 
 let dolares = dolarHoy(2000);
-console.log(dolares)
+console.log(dolares);
 
 function precioFinal (precio){
     let final = precio * 0.21;
@@ -28,7 +28,7 @@ function precioFinal (precio){
 }
 
 let final = precio(1000);
-console.log(final)
+console.log(final);
 
 function mitad (num){
     let miti = num / 2;
@@ -52,7 +52,7 @@ function resta (num1,num2){
 }
 
 let resta = res(2,2);
-console.log(resta)
+console.log(resta);
 
 function multiplicacion (num1,num2){
     let cuenta = num1 * num2;
